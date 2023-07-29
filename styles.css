@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(250, 249, 249);
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  button {
+    margin-top: 5px;
+    padding: 8px;
+  }
+  
+  .message {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #error {
+    background-color: #ff9999;
+  }
+  
+  #success {
+    background-color: #99ff99;
+  }
+  
+  #profileDetails {
+    margin-top: 20px;
+  }
+  
+  #logoutButton {
+    margin-top: 10px;
+  }
+
+  button{
+    border: none;
+    background-color: rgb(89, 14, 146);
+    color: white;
+  }
+
+  p{
+    color: rgb(89, 14, 146);
+    text-align: center;
+  }
+  
